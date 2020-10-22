@@ -1,10 +1,10 @@
-package com.crackco.springtutorial;
+package crackco.springboottutorial;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringTutorialApplicationTests {
+class SpringBootTutorialApplicationTests {
 
 	@Test
 	void contextLoads() {
