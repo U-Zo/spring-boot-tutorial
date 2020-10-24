@@ -1,10 +1,12 @@
 package crackco.springboottutorial.repository;
 
 import crackco.springboottutorial.domain.Member;
+import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
 // 메모리 멤버 저장소
+// @Repository // Spring 컨테이너가 해당 리포지토리 Bean 객체 저장
 public class MemoryMemberRepository implements MemberRepository {
 
     private static Map<Long, Member> store = new HashMap<>();
